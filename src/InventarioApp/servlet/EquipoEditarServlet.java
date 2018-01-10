@@ -29,9 +29,12 @@ public class EquipoEditarServlet extends HttpServlet {
         String inventario = solicitud.getParameter("inventario");
         System.out.println("Inventario" + inventario);
 
+        String user = solicitud.getParameter("user");
+        System.out.println("user " + user);
+
         respuesta.setStatus(HttpServletResponse.SC_OK);
         inventario = StringEscapeUtils.escapeHtml4(inventario); // need to "clean up" whatever
-        action.eliminar(inventario);
+        action.eliminar(inventario, user);
 
     }
 

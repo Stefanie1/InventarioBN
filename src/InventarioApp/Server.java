@@ -1,6 +1,7 @@
 package InventarioApp;
 
 import InventarioApp.servlet.*;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.server.Handler;
@@ -36,6 +37,7 @@ public class Server {
             servletHandler.addServlet(EquipoInfoServlet.class, "/equipoInfo");
             servletHandler.addServlet(EquipoEditarServlet.class, "/eliminarEquipo");
             servletHandler.addServlet(ConsultarEquipo.class,"/consultarEquipo");
+            servletHandler.addServlet(Modificar.class,"/modificarEquipo");
 
             HandlerList handlers = new HandlerList();
             handlers.setHandlers(new Handler[]{resourceHandler, servletHandler});

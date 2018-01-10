@@ -17,6 +17,16 @@ public final class Equipo {
     private String observaciones;
     private String marca;
 
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    private String user;
+
     public String getMensaje() {
         return mensaje;
     }

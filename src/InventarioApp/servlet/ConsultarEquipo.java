@@ -44,30 +44,18 @@ public class ConsultarEquipo extends HttpServlet {
         String jsonString = "Your JSON string";
         JSONParser parser = new JSONParser();
 
+        String buscarPor="", valor="";
         try {
             JSONObject json = (JSONObject) parser.parse(body);
-            String equipo = (String) json.get("equipo");
-            String numInventario = (String) json.get("numInventario");
-            String numSerie = (String) json.get( "numSerie");
-            String marca = (String) json.get( "marca");
-            String estatus = (String) json.get( "estatus");
-            String sede = (String) json.get( "sede");
-            String aula = (String) json.get( "aula");
+            buscarPor = (String) json.get("buscarPor");
+            valor = (String) json.get("valor");
 
-
-            System.out.println("equipo: "+equipo);
-            System.out.println("numInventario: "+numInventario);
-            System.out.println(numSerie);
-            System.out.println(marca);
-            System.out.println(estatus);
-            System.out.println(sede);
-            System.out.println(aula);
-            out.println(action.traerEquipo(numInventario));
+            System.out.println("buscarPor: "+buscarPor);
+            System.out.println("Valor: "+valor);
 
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
-
+        out.println(action.consultaEquipo(buscarPor,valor));
     }
 }
