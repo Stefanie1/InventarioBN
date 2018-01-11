@@ -38,6 +38,9 @@ public class Server {
             servletHandler.addServlet(EquipoEditarServlet.class, "/eliminarEquipo");
             servletHandler.addServlet(ConsultarEquipo.class,"/consultarEquipo");
             servletHandler.addServlet(Modificar.class,"/modificarEquipo");
+            servletHandler.addServlet(Login.class, "/login");
+            servletHandler.addServlet(Signup.class, "/signup");
+            servletHandler.addServlet(Usuarios.class, "/usuarios");
 
             HandlerList handlers = new HandlerList();
             handlers.setHandlers(new Handler[]{resourceHandler, servletHandler});

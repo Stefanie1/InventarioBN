@@ -7,25 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f249485-9a87-4970-ab55-5cdc8c5ead37" name="Default" comment="Add the Front-end">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/dao/EquipoDao.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/dao/EquipoDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/Login.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/Signup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/Usuarios.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/DatabaseHelper/Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/InventarioApp/DatabaseHelper/Status.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/Server.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/Server.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/dao/EquipoDaoSql.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/dao/EquipoDaoSql.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/model/Equipo.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/model/Equipo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/service/EquipoAction.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/service/EquipoAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/service/EquipoInfoAction.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/service/EquipoInfoAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/ConsultarEquipo.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/ConsultarEquipo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/EquipoEditarServlet.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/EquipoEditarServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/EquipoInfoServlet.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/EquipoInfoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/dao/LoginDaoSQL.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/dao/LoginDaoSQL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/Modificar.class" afterPath="$PROJECT_DIR$/out/production/Project1/InventarioApp/servlet/Modificar.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/Server.java" afterPath="$PROJECT_DIR$/src/InventarioApp/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/dao/EquipoDao.java" afterPath="$PROJECT_DIR$/src/InventarioApp/dao/EquipoDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/dao/EquipoDaoSql.java" afterPath="$PROJECT_DIR$/src/InventarioApp/dao/EquipoDaoSql.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/model/Equipo.java" afterPath="$PROJECT_DIR$/src/InventarioApp/model/Equipo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/service/EquipoAction.java" afterPath="$PROJECT_DIR$/src/InventarioApp/service/EquipoAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/service/EquipoInfoAction.java" afterPath="$PROJECT_DIR$/src/InventarioApp/service/EquipoInfoAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/servlet/ConsultarEquipo.java" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/ConsultarEquipo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/servlet/EquipoEditarServlet.java" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/EquipoEditarServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/servlet/EquipoInfoServlet.java" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/EquipoInfoServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/dao/LoginDaoSQL.java" afterPath="$PROJECT_DIR$/src/InventarioApp/dao/LoginDaoSQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java" afterPath="$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/debug.log" afterPath="$PROJECT_DIR$/test/debug.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,66 +35,8 @@
       <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InventarioApp/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modificar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsultarEquipo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/ConsultarEquipo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquipoDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InventarioApp/dao/EquipoDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquipoInfoServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/EquipoInfoServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquipoEditarServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/EquipoEditarServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="197">
+              <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,24 +47,97 @@
       <file leaf-file-name="EquipoInfoAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/EquipoInfoAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="93" column="42" lean-forward="false" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+            <state relative-caret-position="108">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquipoDaoSql.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Signup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Signup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Modificar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usuarios.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Usuarios.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EquipoInfoServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/EquipoInfoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="37" column="84" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EquipoDaoSql.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InventarioApp/dao/EquipoDaoSql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
+            <state relative-caret-position="320">
+              <caret line="135" column="5" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginDaoSQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InventarioApp/dao/LoginDaoSQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="171" column="12" lean-forward="false" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,21 +145,9 @@
       <file leaf-file-name="DatabaseConnector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InventarioApp/DatabaseHelper/DatabaseConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            <state relative-caret-position="345">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquipoAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/EquipoAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -196,10 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hotelapp/registrationLoginExample/LoginWelcomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/hotelapp/client/TouristAttractionFinder.java" />
-        <option value="$PROJECT_DIR$/src/hotelapp/service/HotelAttractionAction.java" />
-        <option value="$PROJECT_DIR$/webapp/style.css" />
         <option value="$PROJECT_DIR$/src/hotelapp/registrationLoginExample/LoginUserServlet.java" />
         <option value="$PROJECT_DIR$/src/hotelapp/registrationLoginExample/LoginBaseServlet.java" />
         <option value="$PROJECT_DIR$/src/hotelapp/registrationLoginExample/LoginRegisterServlet.java" />
@@ -244,9 +238,13 @@
         <option value="$PROJECT_DIR$/src/InventarioApp/service/EquipoAction.java" />
         <option value="$PROJECT_DIR$/src/InventarioApp/dao/EquipoDao.java" />
         <option value="$PROJECT_DIR$/src/InventarioApp/service/EquipoInfoAction.java" />
-        <option value="$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java" />
-        <option value="$PROJECT_DIR$/src/InventarioApp/Server.java" />
+        <option value="$PROJECT_DIR$/src/InventarioApp/servlet/Signup.java" />
         <option value="$PROJECT_DIR$/src/InventarioApp/dao/EquipoDaoSql.java" />
+        <option value="$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java" />
+        <option value="$PROJECT_DIR$/src/InventarioApp/servlet/Usuarios.java" />
+        <option value="$PROJECT_DIR$/src/InventarioApp/Server.java" />
+        <option value="$PROJECT_DIR$/src/InventarioApp/servlet/Login.java" />
+        <option value="$PROJECT_DIR$/src/InventarioApp/dao/LoginDaoSQL.java" />
       </list>
     </option>
   </component>
@@ -601,7 +599,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.50703126" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18564743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41653666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.048361935" sideWeight="0.49296874" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -640,10 +638,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/input/reviews/SanFrancisco/review2336.json" />
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/cache/HotelCache.java" />
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/cache/HotelCacheThreadSafeBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/input/reviews/SanFrancisco/review2406.json" />
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -737,14 +731,6 @@
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/HotelAttractionAction.java" />
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/HotelReviewAction.java" />
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/HotelReviewsServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/dao/LoginDaoSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="239" column="11" lean-forward="true" selection-start-line="239" selection-start-column="11" selection-end-line="239" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/LoginBaseServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/LoginRedirectServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/LoginRegisterServlet.java" />
@@ -782,28 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/model/Equipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/DatabaseHelper/DatabaseConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/EquipoAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -824,53 +788,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/EquipoInfoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/ConsultarEquipo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/EquipoInfoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="93" column="42" lean-forward="false" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
-          <folding>
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,12 +806,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/model/Equipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/DatabaseHelper/DatabaseConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/InventarioApp/dao/EquipoDaoSql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
+        <state relative-caret-position="320">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/EquipoInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="37" column="84" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/service/EquipoInfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/dao/LoginDaoSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="171" column="12" lean-forward="false" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Usuarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Modificar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InventarioApp/servlet/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
           </folding>
         </state>
       </provider>

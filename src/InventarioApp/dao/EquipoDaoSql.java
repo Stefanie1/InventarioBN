@@ -1,11 +1,9 @@
 package InventarioApp.dao;
 
 import InventarioApp.DatabaseHelper.DatabaseConnector;
-import InventarioApp.DatabaseHelper.Status;
 import InventarioApp.model.Equipo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.json.simple.JSONObject;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -128,16 +126,12 @@ public class EquipoDaoSql implements EquipoDao {
     private static Logger log = LogManager.getLogger();
 
     public EquipoDaoSql() {
-        Status status = Status.OK;
         try {
             db = new DatabaseConnector("database.properties");
         } catch (FileNotFoundException e) {
-            status = Status.MISSING_CONFIG;
+
         } catch (IOException e) {
-            status = Status.MISSING_VALUES;
-        }
-        if (status != Status.OK) {
-            log.fatal(status.message());
+
         }
     }
 
