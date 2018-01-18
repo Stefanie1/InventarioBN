@@ -36,10 +36,8 @@ public class EquipoDaoSql implements EquipoDao {
 
     private static final String ELIMINAR_EQUIPO = "UPDATE Equipos SET eliminado = true , UsuarioElinimar=(SELECT idUsuario FROM Usuario WHERE usuario = ?) WHERE num_inventario = ?";
 
-    private static final String MODIFICAR_EQUIP = "";
-
     private static final String GUARDAR_EQUIPO = " \n" +
-            "INSERT INTO Equipos(tipo,num_serie,num_inventario,idEstatus,idAulas,idMarca,eliminado,Usuario, observaciones) values (?, ?, ?,  (SELECT  idEstatus FROM  Estatus WHERE estatus =?), (SELECT  idAulas FROM  Aulas WHERE aula =?),  (SELECT  idMarca FROM  Marca WHERE  marca=?\n" +
+            "INSERT INTO Equipos(tipo,num_serie,num_inventario,idEstatus,idAulas,idMarca,eliminado,Usuario, observaciones) values (?, ?, ?,  (SELECT  idEstatus FROM  Estatus WHERE estatus =?), (SELECT  idAulas FROM  Aulas a Natural JOIN Sede s where aula ='Aula 2' and a.idSede = (Select s.idSede from Sede s where sede = 'tlatelolco')),  (SELECT  idMarca FROM  Marca WHERE  marca=?\n" +
             "),? ,(SELECT  idUsuario FROM  Usuario WHERE  Usuario=?),?);";
 
     private static final String CONSULTAR_EQUIPO = " \n" +
@@ -116,7 +114,7 @@ public class EquipoDaoSql implements EquipoDao {
     private static final String MODIFICAR_EQUIPO ="UPDATE  Equipos\n" +
             "SET idEstatus = (SELECT  idEstatus FROM  Estatus WHERE estatus =?),\n" +
             "\t\tobservaciones = ?,\n" +
-            "        idAulas = (SELECT  idAulas FROM  Aulas a WHERE aula = s? and a.idSede = (Select idSede from Sede where sede = ?))\n" +
+            "        idAulas = (SELECT  idAulas FROM  Aulas a WHERE aula = ? and a.idSede = (Select idSede from Sede where sede = ?))\n" +
             "\t\tWHERE  num_inventario= ?";
 
 
